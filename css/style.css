@@ -1,0 +1,253 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Tahoma;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+span,
+div,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page .header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/rectangle.png);
+}
+.page .header .top-header {
+  padding-top: 40px;
+}
+.page .header .top-header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.page .header .top-header ul li {
+  padding-right: 20px;
+}
+.page .header .top-header ul li a {
+  font-size: 16px;
+  color: #fff;
+}
+.page .header .down-header {
+  padding-top: 150px;
+  text-align: center;
+}
+.page .header .down-header .first-title {
+  font-size: 16px;
+  color: #fff;
+}
+.page .header .down-header .second-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+}
+.page .header .down-header .overlay-btn {
+  padding-top: 20px;
+}
+.page .header .down-header .overlay-btn .button-down-header {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s linear;
+  color: #fff;
+  border: 0;
+  padding: 15px 35px;
+}
+.page .header .down-header .overlay-btn .button-down-header:active {
+  transform: scale(0.95);
+}
+.page .mobile-program {
+  padding: 50px 0px;
+}
+.page .mobile-program .title-mobile-program {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
+}
+.page .mobile-program .text-mobile-program {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  padding-top: 20px;
+}
+.page .mobile-program .us-service {
+  padding-top: 50px;
+  display: flex;
+}
+.page .mobile-program .us-service .card {
+  display: flex;
+  align-items: center;
+}
+.page .mobile-program .us-service .card .info {
+  padding-left: 20px;
+}
+.page .mobile-program .us-service .card .info .title-info {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.page .mobile-program .us-service .card .info .text-info {
+  line-height: 22px;
+  color: #999999;
+}
+.page .mobile-program .overlay-btn-mobile-project {
+  padding-top: 50px;
+  text-align: center;
+}
+.page .mobile-program .overlay-btn-mobile-project .btn-mobile-project {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s linear;
+  color: #fff;
+  border: 0;
+  padding: 15px 35px;
+}
+.page .mobile-program .overlay-btn-mobile-project .btn-mobile-project:active {
+  transform: scale(0.95);
+}
+.page .about {
+  background: #F6F6F8;
+}
+.page .about .content-about {
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+  align-items: center;
+}
+.page .about .content-about .description-about {
+  padding-right: 100px;
+}
+.page .about .content-about .description-about .title-description-about {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+}
+.page .about .content-about .description-about .text-description-about {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page .about .content-about .description-about .many-info {
+  color: #4985FF;
+}
+.page .statistics {
+  padding: 50px 0;
+}
+.page .statistics .wrapper .content-statistics {
+  display: flex;
+  justify-content: space-between;
+}
+.page .statistics .wrapper .content-statistics .our-project .title-project {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+  padding-left: 10px;
+}
+.page .statistics .wrapper .content-statistics .our-project .text-project {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  text-align: end;
+}
+.page .us-specialization {
+  padding: 50px 0 250px 0;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.page .us-specialization .header-us-specialization {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page .us-specialization .header-us-specialization .title-us-specialization {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+.page .us-specialization .header-us-specialization .btn-all-service {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s linear;
+  color: #fff;
+  border: 0;
+  padding: 15px 35px;
+}
+.page .us-specialization .header-us-specialization .btn-all-service:active {
+  transform: scale(0.95);
+}
+.page .us-specialization .cards-us-specialization {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization {
+  position: absolute;
+  width: 30%;
+  z-index: 1;
+  top: 50px;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization .image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-image: url(../img/rectangle2.png);
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization .description-us-specialization .title-description-us-specialization {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 25px 0;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization .description-us-specialization .text-us-specialization {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  color: #999999;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization .description-us-specialization .more-info {
+  color: #4985FF;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization:nth-child(2) {
+  left: 35%;
+}
+.page .us-specialization .cards-us-specialization .card-us-specialization:last-child {
+  right: 0;
+}
