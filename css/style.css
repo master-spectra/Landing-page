@@ -251,3 +251,210 @@ p {
 .page .us-specialization .cards-us-specialization .card-us-specialization:last-child {
   right: 0;
 }
+.page .us-project {
+  padding-top: 400px;
+  background: #F6F6F8;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.page .us-project .info .title-us-project {
+  font-weight: bold;
+  font-size: 36px;
+}
+.page .us-project .info .text-us-project {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 20px 0;
+  color: #999999;
+}
+.page .us-project img {
+  margin-right: 20px;
+}
+.page .us-project .btn-overlay-us-project .btn-us-project {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s linear;
+  color: #fff;
+  border: 0;
+  padding: 15px 35px;
+  margin-top: 50px;
+}
+.page .us-project .btn-overlay-us-project .btn-us-project:active {
+  transform: scale(0.95);
+}
+.page .video-about-us-work {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/rectangle4.png);
+  height: 75vh;
+}
+.page .video-about-us-work .content-video-about-us-work {
+  text-align: center;
+  padding-top: 50px;
+}
+.page .video-about-us-work .content-video-about-us-work .title-video-about-us-work {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #fff;
+}
+.page .video-about-us-work .content-video-about-us-work .second-title-video-about-us-work {
+  font-size: 16px;
+  color: #fff;
+  padding-top: 20px;
+}
+.page .video-about-us-work .content-video-about-us-work .overlay-btn-video-about-us-work {
+  padding-top: 100px;
+}
+.page .video-about-us-work .content-video-about-us-work .overlay-btn-video-about-us-work .btn-video-about-us-work {
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 60px;
+  padding: 10px 35px;
+  transition: all 0.3s linear;
+}
+.page .video-about-us-work .content-video-about-us-work .overlay-btn-video-about-us-work .btn-video-about-us-work .play {
+  font-size: 60px;
+  color: #ffff;
+  display: inline-block;
+  float: left;
+}
+.page .video-about-us-work .content-video-about-us-work .overlay-btn-video-about-us-work .btn-video-about-us-work .text-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+.page .video-about-us-work .content-video-about-us-work .overlay-btn-video-about-us-work .btn-video-about-us-work:active {
+  transform: scale(0.95);
+}
+.page .subscribe {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/sea.jpg);
+  height: 75vh;
+}
+.page .subscribe .wrapper .content-subscribe {
+  text-align: center;
+  padding-top: 10%;
+}
+.page .subscribe .wrapper .content-subscribe .title-content-subscribe {
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.page .subscribe .wrapper .content-subscribe .text-content-subscribe {
+  font-size: 16px;
+  color: #fff;
+}
+.page .subscribe .wrapper .content-subscribe form {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  position: relative;
+  justify-content: center;
+}
+.page .subscribe .wrapper .content-subscribe form .email {
+  outline: none;
+  padding: 14px 59px;
+  border-radius: 35px;
+  border: 0;
+}
+.page .subscribe .wrapper .content-subscribe form .btn-subscribe {
+  background: #4985FF;
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s linear;
+  color: #fff;
+  border: 0;
+  padding: 15px 35px;
+}
+.page .subscribe .wrapper .content-subscribe form .btn-subscribe:active {
+  transform: scale(0.95);
+}
+.page .subscribe .wrapper .content-subscribe .second-text-content-subscribe {
+  color: #fff;
+  font-size: 16px;
+}
+.page .footer {
+  padding: 50px 0;
+}
+.page .footer .wrapper .content-footer .top-footer {
+  display: flex;
+  border-bottom: 1px solid #999999;
+  justify-content: space-between;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .title-contacts {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .mail {
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .mail span {
+  padding: 0 10px;
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .phone {
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .phone span {
+  padding: 0 10px;
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .top-footer .contacts .address span {
+  padding: 0 10px;
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .top-footer .main-link .title-main-link {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .main-link ul li {
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .main-link ul li a {
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .top-footer .us-project-footer .title-us-project {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .us-project-footer ul li {
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .us-project-footer ul li a {
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .top-footer .us-social-network .title-social-network {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .us-social-network ul li {
+  padding-bottom: 20px;
+}
+.page .footer .wrapper .content-footer .top-footer .us-social-network ul li a {
+  color: #999999;
+}
+.page .footer .wrapper .content-footer .down-footer .rights {
+  text-align: center;
+  padding-top: 25px;
+  color: #999999;
+}
